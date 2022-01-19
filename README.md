@@ -1,1 +1,1 @@
-# Build-a-pyramid
+# build-a-pyramid
