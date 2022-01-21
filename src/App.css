@@ -1,1 +1,37 @@
+html, body {
+  background-color: wheat;
+  padding: 0;
+  margin: 0;
+}
 
+div {
+  background-color: wheat;
+}
+
+nav {
+  margin-left: 5%;
+  font-weight: 900;
+  font-size: 32px;
+}
+
+nav span {
+  color: red;
+}
+
+form {
+  margin-top: 10%;
+  line-height: 32px;
+  font-size: 22px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+input {
+  width: 70px;
+  height: 30px;
+  border-color: red;
+}
+
+form button {
+  margin-top: 7px;
+}

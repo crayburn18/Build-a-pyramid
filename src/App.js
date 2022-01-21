@@ -44,7 +44,7 @@ function App() {
         )
       } else {
         return Math.min(
-          (Math.ceil(((timeLimit*60)/(travelTime*2 + loadTime)))-1) * totalBoats * boatCapacity + (Math.floor((timeLimit * 60 % (2*travelTime))/unloadTime)* totalBoats),
+          (Math.floor(((timeLimit*60)/(travelTime*2 + loadTime)))-1) * totalBoats * boatCapacity + (Math.floor((timeLimit * 60 % (2*travelTime))/unloadTime)* totalBoats),
           Math.floor(((timeLimit*60) - (travelTime*2))/ unloadTime) * totalBoats,
           Math.floor(((timeLimit*60) - travelTime)/ loadTime) * totalBoats 
         )       
