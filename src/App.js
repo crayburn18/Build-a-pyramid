@@ -50,7 +50,7 @@ function App() {
         )       
       }
     }
-    console.log(stoneCalculator(newValues))
+    alert(`You now have ${stoneCalculator(newValues)} stones!`)
 };
 
   return (
